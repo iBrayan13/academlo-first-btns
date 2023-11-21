@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.row button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: large;
+    border: 0;
+}
+
+.row .first-0 {
+    background-color: #ffffff;
+}
+.row .first-1 {
+    background-color: #F5F5F5;
+}
+.row .first-2 {
+    background-color: #363636;
+    color: #fefefe;
+}
+.row .first-3 {
+    background-color: #000000;
+    color: #fefefe;
+}
+.row .first-4 {
+    background-color: #fefefe;
+    text-decoration: underline;
+}
+
+.row .second-0 {
+    background-color: #04D1B2;
+    color: #f2f2f2;
+}
+.row .second-1 {
+    background-color: #3173DC;
+    color: #f2f2f2;
+}
+.row .second-2 {
+    background-color: #3298DC;
+    color: #f2f2f2;
+}
+.row .second-3 {
+    background-color: #49C774;
+    color: #f2f2f2;
+}
+.row .second-4 {
+    background-color: #FFDD57;
+    color: #000;
+}
+.row .second-5 {
+    background-color: #F14667;
+    color: #f2f2f2;
+}
+
+.row .third-0 {
+    color: #04D1B2;
+    background-color: #edfffc;
+}
+.row .third-1 {
+    color: #3173DC;
+    background-color: #f5f7fc;
+}
+.row .third-2 {
+    color: #3298DC;
+    background-color: #f4fbff;
+}
+.row .third-3 {
+    color: #49C774;
+    background-color: #f3fff7;
+}
+.row .third-4 {
+    color: #d8bc4b;
+    background-color: #fcfcf5;
+}
+.row .third-5 {
+    color: #F14667;
+    background-color: #fff5f5;
+}
+
+.row-lastest {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.row-lastest button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 4 solid;
+    background-color: #fefefe;
+}
+.row-lastest .lastest-xs {
+    font-size: x-small;
+}
+.row-lastest .lastest-s {
+    font-size: small;
+}
+.row-lastest .lastest-m {
+    font-size: medium;
+}
+.row-lastest .lastest-l {
+    font-size: large;
+}
+.row-lastest .lastest-xl {
+    font-size: x-large;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform .3s;
+}
